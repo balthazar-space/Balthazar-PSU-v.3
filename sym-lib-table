@@ -6,4 +6,5 @@
   (lib (name "BalthazarPSU2-rescue")(type "Legacy")(uri "${KIPRJMOD}/BalthazarPSU2-rescue.lib")(options "")(descr ""))
   (lib (name "LM2623")(type "KiCad")(uri "${KIPRJMOD}/LM2623.kicad_sym")(options "")(descr ""))
   (lib (name "PSU3")(type "KiCad")(uri "${KIPRJMOD}/PSU3.kicad_sym")(options "")(descr ""))
+  (lib (name "BalthazarPSU3-rescue")(type "Legacy")(uri "${KIPRJMOD}/BalthazarPSU3-rescue.lib")(options "")(descr ""))
 )
