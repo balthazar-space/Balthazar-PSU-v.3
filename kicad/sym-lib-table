@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "BalthazarPSU-rescue")(type "Legacy")(uri "${KIPRJMOD}/BalthazarPSU-rescue.lib")(options "")(descr ""))
+  (lib (name "pam8403-sop16")(type "Legacy")(uri "${KIPRJMOD}/pam8403-sop16.lib")(options "")(descr ""))
+  (lib (name "bq24193")(type "Legacy")(uri "${KIPRJMOD}/bq24193.lib")(options "")(descr ""))
+  (lib (name "tps63020")(type "Legacy")(uri "${KIPRJMOD}/tps63020.lib")(options "")(descr ""))
+  (lib (name "BalthazarPSU2-rescue")(type "Legacy")(uri "${KIPRJMOD}/BalthazarPSU2-rescue.lib")(options "")(descr ""))
+  (lib (name "LM2623")(type "KiCad")(uri "${KIPRJMOD}/LM2623.kicad_sym")(options "")(descr ""))
+  (lib (name "PSU3")(type "KiCad")(uri "${KIPRJMOD}/PSU3.kicad_sym")(options "")(descr ""))
+  (lib (name "BalthazarPSU3-rescue")(type "Legacy")(uri "${KIPRJMOD}/BalthazarPSU3-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS63020
+D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
+#End Doc Library

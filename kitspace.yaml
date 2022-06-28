@@ -1,0 +1,6 @@
+site: https://github.com/balthazar-space/balthazarPSU3
+color: black
+gerbers: kicad/gerbers
+eda:
+  type: kicad
+  pcb: kicad/BalthazarPSU3.kicad_pcb
