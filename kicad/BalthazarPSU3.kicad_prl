@@ -3,10 +3,14 @@
     "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "hidden_netclasses": [],
+    "hidden_nets": [
+      "VSYS"
+    ],
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -66,7 +70,7 @@
       39
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "BalthazarPSU3.kicad_prl",
