@@ -70,7 +70,7 @@
       39
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "BalthazarPSU3.kicad_prl",
