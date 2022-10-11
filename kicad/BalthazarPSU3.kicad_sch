@@ -7605,7 +7605,7 @@
   (symbol (lib_id "power:GND") (at 73.66 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a894b80-cdf3-44c9-bca8-ded4ced24db6)
-    (property "Reference" "#PWR0101" (at 73.66 199.39 0)
+    (property "Reference" "#PWR0103" (at 73.66 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 196.85 0)
@@ -7621,7 +7621,7 @@
     (instances
       (project "BalthazarPSU3"
         (path "/97dfd196-adc7-4d2e-bfb8-c44c3fed6020"
-          (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
         )
       )
     )
