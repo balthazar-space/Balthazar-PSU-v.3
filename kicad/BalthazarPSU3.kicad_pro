@@ -56,7 +56,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|106665000|69262000|a97223be-7f07-4a6c-9b63-b1a140c81bef|d6bfe6f7-2e9d-40af-861a-48bda7ceb789",
+        "clearance|154178000|67310000|00000000-0000-0000-0000-00005fd051b3|00000000-0000-0000-0000-00005fd051c2",
+        "clearance|154432000|66981504|00000000-0000-0000-0000-00005fd051b3|00000000-0000-0000-0000-00005fd051c2",
+        "clearance|155067000|66981504|00000000-0000-0000-0000-00005fd051b3|00000000-0000-0000-0000-00005fd051c2",
+        "clearance|155448000|67310000|00000000-0000-0000-0000-00005fd051b3|00000000-0000-0000-0000-00005fd051c2",
+        "shorting_items|151660000|66532500|83676cf0-6229-4000-930f-c2009adc658b|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "shorting_items|151660000|69382500|e075bb0e-8641-4897-924e-786a35ebcc8f|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "shorting_items|152120000|66532500|d0b0dcc6-1d60-4cf6-a1dd-763ef697762c|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "shorting_items|152120000|69382500|1103585d-fc54-4b12-a527-3beb33b74282|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "shorting_items|152580000|66532500|d6b64d07-0b7c-4c98-9e0d-396e85c0793d|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "shorting_items|152580000|69382500|38f71771-83a5-44fd-9d6f-52f0fdbf6aae|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "shorting_items|153040000|69382500|62d81a49-2545-4ad5-991c-09f400f1d34f|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "shorting_items|153240000|66532500|9d2ed739-945a-4aa9-a7dc-446a46cf9ef5|4e473006-5216-4ea6-9a8f-ef579152bb86",
+        "silk_edge_clearance|100838000|66888500|c371b6fc-75aa-4edd-bf8a-c56ea2dceede|a482c6f5-eb3e-40d4-814a-e0839fb6bfe6",
+        "silk_edge_clearance|100838000|68992000|c371b6fc-75aa-4edd-bf8a-c56ea2dceede|ee1308c5-75fe-4da5-9c15-fb0bd1b5dbe6",
+        "silk_edge_clearance|100838000|78182000|c371b6fc-75aa-4edd-bf8a-c56ea2dceede|8ec76290-fcfc-48c7-8c71-d9ad4ff74e8e",
+        "silk_edge_clearance|111898000|58039000|00000000-0000-0000-0000-00005e67feb0|2cd466f1-a074-4696-8abe-f4e919f6e544",
+        "silk_edge_clearance|112098000|58039000|00000000-0000-0000-0000-00005e67feb0|f4bb7193-d519-4234-93e2-f21540f72bea"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -67,7 +86,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -121,14 +140,14 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.049999999999999996,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.15,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
-        "min_text_thickness": 0.12,
-        "min_through_hole_diameter": 0.3,
+        "min_text_height": 0.5,
+        "min_text_thickness": 0.09999999999999999,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
@@ -427,7 +446,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -444,7 +463,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -461,7 +480,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
