@@ -9,3 +9,8 @@ KiCad 6.99 files
 # BalthazarPSU3 
 
 module BalthazarPSU3 is a combined 1S battery charger, buck-boost converter to 5V, boost converter to 12V and stereo power amplifier. 
+
+![Top](/images/PSU3_top_v02.png)
+
+![Bottom](/images/PSU3_bottom_v02.png)
+
